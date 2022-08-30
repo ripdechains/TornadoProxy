@@ -1,4 +1,4 @@
-# TornadoVPN
+# TornadoVPN (powered by Mysterium Network's Tequilapi
 
 git clone https://github.com/ripdechains/TornadoVPN.git
 cd TornadoVPN
