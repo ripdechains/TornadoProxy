@@ -2,7 +2,7 @@
 
 git clone https://github.com/ripdechains/TornadoVPN.git
 cd TornadoVPN
-./start_tornado.py
+python3 start_tornado.py
 
 IMPORTANT: Even when you have closed the terminal window (with Ctrl + C) you will still be connected to the last provider used. To disconnect completely you have two options:
 
