@@ -11,7 +11,7 @@ with cURL:
 
 or with Python:
 
-**import requests**
+**import requests**\n
 **requests.delete ("http://localhost:4050/connection")**
 
 Remember to disconnect from the provider after each use so as not to continue to overpay for it!
