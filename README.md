@@ -10,7 +10,7 @@ Prerequisites:
 # Downlaoding and running TornadoProxy:
 ```
 git clone https://github.com/ripdechains/TornadoProxy.git
-cd TornadoVPN
+cd TornadoProxy
 python3 start_tornado.py
 ```
 # Stopping / Disconnect from the proxy:
