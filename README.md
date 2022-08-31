@@ -40,7 +40,7 @@ If you found this software useful please consider a donation:
 
 **Bitcoin: 1LjyKgstk1dQsSU6njFd4RfGw3C9JBtVuG**
 
-**Monero: 46RMED5BfrN6B5rdG6q2L38XYoc3Hb9Rac7ge2Mmubgza9SRp7EKBCCgxwCzN52oeZ1ACCF71M57eZwXfcD8MPTnKT15CYj**
+**Monero: 82qjYLZj6XeTGjeUNm9AQVB78hVGStZd8YU1UKuvWz8QKAzFWZpBpEQFho3jrvUCNQPSqC9nYeEN3b7FQ5REPffNSA2WSDH**
 
 **Litecoin: ltc1q4ft4ltjnyt8auqq4m5u7raatftu6mt5snst493**
 
