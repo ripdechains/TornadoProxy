@@ -1,7 +1,8 @@
 # TornadoProxy (powered by Mysterium Network's Tequilapi)
 
 Scrape the Web easy with TornadoProxy 🌪️
-DISCORD: https://discord.com/channels/614079733663006750/614079733663006752
+
+JOIN DISCORD: https://discord.com/channels/1014477172259430411
 
 Prerequisites:
 -To be able to use TornadoProxy you must first have successfully installed and registered a Mysterium Node, see https://docs.mysterium.network/for-node-runners/intros-mysterium-node
