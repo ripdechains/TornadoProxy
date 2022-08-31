@@ -15,7 +15,7 @@ cd TornadoProxy
 python3 start_tornado.py
 ```
 # Stopping / Disconnect from the proxy:
-IMPORTANT: Even when you have closed the terminal window (with Ctrl + C) you will still be connected to the last provider used. To disconnect completely you have two options:
+IMPORTANT: Even when you have closed the terminal window you will still be connected to the last provider used. To disconnect completely you have two options:
 
 with cURL:
 ```curl -X DELETE http://localhost:4050/connection```
