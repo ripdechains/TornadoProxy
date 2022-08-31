@@ -38,8 +38,12 @@ If you found this software useful please consider a donation:
 
 **Polygon / Myst: 0x45320b5B2a8f6073f4a92FFDF149861aBade4B4b**
 
-**Ethereum: 0xF3A0246690947669A0bf68147Ba82AC8de576a56**
-
 **Bitcoin: 1LjyKgstk1dQsSU6njFd4RfGw3C9JBtVuG**
+
+**Monero: 46RMED5BfrN6B5rdG6q2L38XYoc3Hb9Rac7ge2Mmubgza9SRp7EKBCCgxwCzN52oeZ1ACCF71M57eZwXfcD8MPTnKT15CYj**
+
+**Litecoin: ltc1q4ft4ltjnyt8auqq4m5u7raatftu6mt5snst493**
+
+**Ethereum: 0xF3A0246690947669A0bf68147Ba82AC8de576a56**
 
 Thank you :-)
