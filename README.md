@@ -40,6 +40,8 @@ If you found this software useful please consider a donation:
 
 **Bitcoin: 1LjyKgstk1dQsSU6njFd4RfGw3C9JBtVuG**
 
+**Solana: 6RX2ADdcNWZfaUfuGeHg86AYAoMuLF45Lbgfu3oNGh9i**
+
 **Monero: 82qjYLZj6XeTGjeUNm9AQVB78hVGStZd8YU1UKuvWz8QKAzFWZpBpEQFho3jrvUCNQPSqC9nYeEN3b7FQ5REPffNSA2WSDH**
 
 **Litecoin: ltc1q4ft4ltjnyt8auqq4m5u7raatftu6mt5snst493**
