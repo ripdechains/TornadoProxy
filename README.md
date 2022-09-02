@@ -14,6 +14,14 @@ git clone https://github.com/ripdechains/TornadoProxy.git
 cd TornadoProxy
 python3 start_tornado.py
 ```
+
+# How to use :
+
+You will find 3 files
+ that must remain in the same directory (```start_tornado.py```, ```config.json``` and ```run.sh```)
+Tornado chooses a random proxy to connect to, will change your public IP address, and executes the code contained within ```run.sh```, which you can modify as you wish, when the code has finished running, it will change the address again IP with another random one and the code will run again, until you stop it. If you do not want code to be executed at every switch: by default, within run.sh you will find ```sleep 30```, this simply means that nothing will be executed but only 30 seconds will pass from one provider change to another. You can change 30 to the number of seconds you want to pass for every switch.
+ You will find a configuration file called config.json. It must always remain in the same folder where ```start_tornado.py``` resides. Within it you can change the "zone" key by inserting: ```any``` if you want IP addresses from any part of the world to be chosen randomly, or restrict only to a certain continent using the tickers ```EU```, ```NA```,```SA```, ```AS```, ```OC```, ```AF``` (Europe, North America, South America, Asia, Oceania, Africa), also in the "action" key you can change the path of the file to be executed instead of ./ run.sh (which is default)
+
 # Stopping / Disconnect from the proxy:
 IMPORTANT: Even when you have closed the terminal window you will still be connected to the last provider used. To disconnect completely you have two options:
 
@@ -28,12 +36,7 @@ requests.delete ("http://localhost:4050/connection")
 Remember to disconnect from the provider after each use so as not to continue to overpay for it!
 
 
-# How to use :
 
-You will find 3 files
- that must remain in the same directory (```start_tornado.py```, ```config.json``` and ```run.sh```)
-Tornado chooses a random proxy to connect to, will change your public IP address, and executes the code contained within ```run.sh```, which you can modify as you wish, when the code has finished running, it will change the address again IP with another random one and the code will run again, until you stop it. If you do not want code to be executed at every switch: by default, within run.sh you will find ```sleep 30```, this simply means that nothing will be executed but only 30 seconds will pass from one provider change to another. You can change 30 to the number of seconds you want to pass for every switch.
- You will find a configuration file called config.json. It must always remain in the same folder where ```start_tornado.py``` resides. Within it you can change the "zone" key by inserting: ```any``` if you want IP addresses from any part of the world to be chosen randomly, or restrict only to a certain continent using the tickers ```EU```, ```NA```,```SA```, ```AS```, ```OC```, ```AF``` (Europe, North America, South America, Asia, Oceania, Africa), also in the "action" key you can change the path of the file to be executed instead of ./ run.sh (which is default)
 
 
 If you found this software useful please consider a donation:
