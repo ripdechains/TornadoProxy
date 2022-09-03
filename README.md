@@ -1,6 +1,6 @@
 # TornadoProxy 🌪️ (powered by Mysterium Network's Tequilapi)
 
- 
+ Join Discord: https://discord.com/channels/1014477172259430411/
 
 
 #Requisites:
