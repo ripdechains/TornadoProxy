@@ -3,7 +3,7 @@
  Join Discord: https://discord.com/channels/1014477172259430411/
 
 
-#Requisites:
+# Requisites:
 -A registered and running Mysterium Node, see https://docs.mysterium.network/for-node-runners/intros-mysterium-node
 
 -Python>=3.8
