@@ -7,12 +7,15 @@ import random
 
 
 url="http://localhost:4050/"
-def is_API_available():
-    status_code=r.get(url).status_code
-    if status_code==200:
-       return True
-if not is_API_available():
-   print("Can't access API. Make sure that your Mysterium Node is running and successfully registered.\nYou might be interested in:\nHow to run a node on Windows: https://docs.mysterium.network/for-node-runners/mysterium-node-windows-installer \nHow to run a node on Linux: https://docs.mysterium.network/for-node-runners/linux-guide\n\n")
+def API_not_available():
+    try:
+        status_code=r.get(url).status_code
+        status_code==200
+    except:
+           return True
+           
+if API_not_available():
+   print("Can't access API. Make sure that your Mysterium Node is running and successfully registered.\n\nHow to run a node on Windows: https://docs.mysterium.network/for-node-runners/mysterium-node-windows-installer \n\nHow to run a node on Linux: https://docs.mysterium.network/for-node-runners/linux-guide\n\n")
    print("Exiting...")
    sys.exit()
 else:
