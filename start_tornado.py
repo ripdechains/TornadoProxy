@@ -57,13 +57,13 @@ else:
      print("---------------")      
      print("Total:",len(all_providers), "\nEurope:",len(EU_providers),"\nNorth America:",len(NA_providers),"\nSouth America:",len(SA_providers),"\nAsia:",len(AS_providers),"\nOceania:",len(OC_providers),"\nAfrica:",len(AF_providers))
      print("---------------")
-     print(\n\n")
+     print("\n\n")
 if not os.path.exists("config.json"):
    print("No configuration file was found. Exiting ...")
    sys.exit()
 else:
      print("Loading configuration...")
-     print(\n\n")
+     print("\n\n")
      try:
          config=open("config.json")
          config=json.load(config)
